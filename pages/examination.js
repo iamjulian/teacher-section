@@ -40,6 +40,7 @@ const examination = () => {
                 justify="start"
                 align="middle"
                 style={{ marginTop: "5%" }}
+                key={link.class}
               >
                 <Col span={22}>Class {link.class}</Col>
                 <Col span={20}>
